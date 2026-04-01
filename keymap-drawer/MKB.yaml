@@ -120,48 +120,48 @@ layers:
   - B
   Num:
   - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
+  - Sft+1
+  - Sft+2
+  - Sft+3
+  - Sft+4
+  - Sft+5
+  - Sft+6
+  - Sft+7
+  - Sft+8
+  - {t: ▽, type: trans}
   - '0'
   - {t: ▽, type: trans}
+  - LANGUAGE 1
+  - LEFT
+  - UP ARROW
+  - RIGHT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 1
   - MINUS
   - EQUAL
   - LBKT
   - RBKT
-  - BSLH
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - LANGUAGE 2
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
+  - {t: ▽, type: trans}
+  - LANGUAGE 2
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - FSLH
   - SEMI
   - SQT
   - {t: ▽, type: trans}
+  - SLASH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
-  - ENTER
-  - ENTER
-  - ENTER
-  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
