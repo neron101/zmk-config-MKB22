@@ -36,14 +36,14 @@ layers:
   - COMMA
   - DOT
   - UP
-  - FSLH
-  - {t: ESC, h: LCTL}
+  - Sft+FSLH
+  - '&mkp MB2'
   - LGUI
   - LALT
   - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
+  - '&mkp MB1'
+  - {t: ENTER, h: Fnc}
+  - BACKSPACE
   - LEFT
   - DOWN
   - RIGHT
@@ -52,11 +52,11 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
+  - LEFT
+  - UP ARROW
   - ENTER
-  - PG DN
-  - END
+  - DOWN
+  - RIGHT
   - A
   - B
   Fnc:
@@ -100,8 +100,8 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - ENTER
-  - {t: ENTER, type: held}
   - ENTER
+  - {t: ENTER, type: held}
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
