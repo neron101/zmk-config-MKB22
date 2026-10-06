@@ -42,7 +42,7 @@ layers:
   - LEFT GUI
   - {t: SPACE, h: Fnc}
   - '&mkp MB1'
-  - {t: ENTER, h: Fnc}
+  - {t: ENTER, h: Num}
   - BACKSPACE
   - LEFT
   - DOWN
@@ -160,7 +160,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
