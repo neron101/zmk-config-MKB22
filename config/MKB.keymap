@@ -21,12 +21,6 @@
     require-prior-idle-ms = <150>;
 };
 
-// オートマウス（トラボを動かすと Mouse 層。DYA Studio から変更可）
-&mouse_runtime_input_processor {
-    temp-layer-enabled;
-    temp-layer = <MOUSE>;
-};
-
 / {
     behaviors {
         // ロータリーエンコーダー（DYA Studioから変更可。以下は初期値）
