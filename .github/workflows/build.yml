@@ -21,6 +21,7 @@ jobs:
         with:
           fetch-depth: ${{ (inputs.amend_commit == true && 2) || 1 }}
           submodules: recursive
+          ref: ${{ github.ref }}  # 最新のmainを取得（Drawコミットとの競合回避）
           
       - name: Get branch name
         id: branch-name
